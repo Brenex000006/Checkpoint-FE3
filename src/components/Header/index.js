@@ -5,7 +5,7 @@ const Header = ({ empresa, temaEscuro }) => {
 
   return (
     <header className="sticky-top">
-      <nav className={`navbar navbar-expand-sm navbar-${temaEscuro ? 'dark' : 'light'} bg-${temaEscuro ? 'dark' : 'light'}`} aria-label="Third navbar example">
+      <nav className={`navbar navbar-expand-sm navbar-dark`} aria-label="Third navbar example">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">{empresa}</a>
           

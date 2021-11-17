@@ -37,9 +37,9 @@ const Trabalhos = () => {
         {card.map(({id, imageUrl, nome, descricao, gitHub }) => {
           return (
             <article className={'card' + id}>
-              <Card style={{ width: "100%" }}>
+              <Card className="fundo" style={{ width: "100%" }}>
                 <Card.Img variant="top" src={imageUrl} />
-                <Card.Body>
+                <Card.Body >
                   <Card.Title>{nome}</Card.Title>
                   <a href={descricao} target="blank">
                     Link do Site do Projeto.

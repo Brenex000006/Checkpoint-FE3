@@ -19,7 +19,7 @@ export default class App extends Component {
           <Banner>
             <img className="imagem" src="https://i.imgur.com/x1BTn14.jpeg" alt="yup"/>
             <h2>Quem sou eu?</h2>
-            <p>
+            <p className="descricao">
               Eu me chamo Breno Rodrigues Souza, eu tenho 18 anos, quero estudar ciencia da computação e estou estudando na DH Programação no Curso CTD. 
             </p>
           </Banner>
